@@ -16,6 +16,7 @@ Explore mutation and FOXM1 expression patterns in three datasets(See details in 
 
 Step 6:
 Idenfying genome instability related genes in TNBC (See details in Validation.R)
+
 Step 7:
 Perform stratification analysis for clinical infromation in the METABRIC dataset (See details in Stratification_analysis.R)
 
