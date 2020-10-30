@@ -1,0 +1,37 @@
+########################################################################
+################### TNBC project start #################################
+########################################################################
+################### install package ###################################
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("RColorBrewer")
+BiocManager::install("R.utils")
+BiocManager::install("gplots")
+BiocManager::install("edgeR")
+BiocManager::install("ggpubr")
+BiocManager::install("survminer")
+BiocManager::install("lubridate")
+BiocManager::install("survivalROC")
+BiocManager::install("verification")
+BiocManager::install("randomForest")
+BiocManager::install("ROCR")
+BiocManager::install("Rmisc")
+
+install.packages("~/Documents/TNBC2/input/Swden_TNBC/ascat_master/ASCAT.tar.gz", repos = NULL, type = "source")
+library(ASCAT)
+library(RColorBrewer)
+library(R.utils) ####gunzip need
+library(splines)
+library(survival)
+library(ggplot2)
+library(ggpubr)
+library(survminer)
+library(lubridate)
+library(gplots)
+library(limma)
+library(edgeR)
+library(survivalROC)
+library(verification)
+library(randomForest)
+library(ROCR)
+library(Rmisc)
